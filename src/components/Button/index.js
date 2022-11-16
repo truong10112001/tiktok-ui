@@ -60,7 +60,7 @@ function Button({
             <span className={cx('title')}>{children}</span>
             {rightIcon && <span className={cx('icon')}>{rightIcon}</span>} 
         </Comp>
-    );
+        );
 }
 
 export default Button;
